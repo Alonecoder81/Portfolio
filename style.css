@@ -1,0 +1,622 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navigation-bar {
+    height: 60px;
+    width: 99.3%;
+    background-image: url(https://cdn.pixabay.com/photo/2017/10/10/07/48/hills-2836301_960_720.jpg);
+    background-size: cover;
+    font-family: montserrat, sans-serif;
+    color: #100606;
+    position: sticky;
+    display: flex;
+    transition: all 0s ease 0s;
+    outline: rgb(255, 0, 0) dashed;
+    overflow: hidden;
+    position: fixed;
+}
+
+a {
+    height: auto;
+    width: auto;
+    font-family: montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none solid rgb(250, 250, 250);
+    word-spacing: 0px;
+}
+
+.bar {
+    display: inline-flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    position: relative;
+    left: 68%;
+    margin: 20px;
+    color: #FAFAFA;
+}
+
+
+
+.bar:hover {
+    color: #FF4D5A;
+}
+
+
+#start {
+    height: 100vh;
+    width: 99.3%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://cdn.pixabay.com/photo/2017/10/10/07/48/hills-2836301_960_720.jpg);
+    background-size: cover;
+    align-items: center;
+    overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+    .Heading {
+        width: 90%;
+        max-width: 100%;
+    }
+
+    .heading-line-1,
+    .heading-line-2 {
+        font-size: 5vw; 
+    }
+
+    .heading-line-3 {
+        font-size: 2.5vw; 
+    }
+}
+
+.Heading {
+    position: relative;
+    width: 90%; 
+    max-width: 805.688px;
+    margin: 5% auto; 
+    
+}
+
+.heading-line-1,
+.heading-line-2,
+.heading-line-3 {
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none solid rgb(250, 250, 250);
+    text-align: center;
+}
+
+.heading-line-1 {
+    font-size: 3.5vw; 
+    margin-bottom: 10px; 
+}
+
+.heading-line-2 {
+    font-size: 3.5vw; 
+}
+
+.heading-line-1 > span {
+    color: #FF4D5A;
+}
+
+.heading-line-3 {
+    border: 2px solid #FF4D5A;
+    margin: 3% 0; 
+    padding: 2% 5%; 
+    font-size: 1.8vw; 
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+    .Heading {
+        width: 90%;
+        max-width: 100%;
+    }
+
+    .heading-line-1,
+    .heading-line-2 {
+        font-size: 5vw; 
+    }
+
+    .heading-line-3 {
+        font-size: 2.5vw; 
+    }
+}
+.name {
+    position: absolute;
+    left: 50px;
+    font-size: 1.7rem;
+}
+#flex {
+    height: 372px;
+    display: inline-flex;
+    position: absolute;
+}
+
+
+#middle {
+    position: relative;
+    height: 85vh;
+    width: 99.3%;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-image: url(https://www.techbuzzonline.com/wp-content/uploads/2018/05/21-Awesome-Field-Landscape-Background-1280x720.jpg);
+    background-size: cover;
+}
+
+.profile_blurb {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px; 
+    font-family: montserrat, sans-serif;
+    font-size: 1vw;
+    font-weight: 500;
+    line-height: 1.8;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .middle-1 {
+        width: 90%;
+        flex-direction: row;
+    }
+}
+ 
+
+
+.middle-2 {
+    width: 100%;
+    height: auto; 
+    box-sizing: border-box;
+    background-color: black;
+    padding: 20px;
+    max-width: 1822px; 
+}
+.ht{
+    color: white;
+    width: 50%;
+    height: 15vh;
+    font-size: 25px;
+    text-align: center;
+}
+
+.section-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #000000;
+}
+
+.section-heading-2 {
+    font-size: 5vw;
+    margin: 5vw 0;
+    color: white;
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    text-decoration: underline #FF4D5A;
+    text-align: center;
+}
+
+img[alt="section-imges"] {
+    width: 80%;
+    height: auto;
+    max-width: 100%;
+}
+
+
+
+.section{
+    height: 10vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 5vw;
+}
+
+.section-heading {
+    width: 30%; 
+    text-align: center;
+    margin-top: 2vw; 
+}
+.image-hight-content {
+    width: 98.5%;
+    margin: 0 auto; 
+    border: 1px solid #000000;
+    box-sizing: border-box; 
+}
+
+.hight-content {
+    width: 100%;
+    height: auto; 
+}
+
+.background {
+    width: 40%;
+    
+    height: 80vh;
+    
+}
+
+.image-high {
+    width: 60%;
+    height: 75vh; 
+    margin: 0 auto; 
+    position: relative;
+}
+
+svg{
+    height: 25vh;
+    width: 25vw;
+}
+
+
+.container-skill {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    width: 97%;
+    height: 100vh;
+    width: 98.5vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, auto);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.skill-chart {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    height: 70vh;
+}
+
+.container-skill h2 {
+    font-size: 74px;
+    margin-bottom: 10px;
+    width: 60%;
+    margin-left: 80%;
+}
+
+.skill {
+    width: 90%;
+    height: 50%;
+    padding-top: 30px;
+
+}
+
+.skill-name {
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+.skill-bar {
+    height: 20px;
+    background-color: #333;
+    position: relative;
+    border-radius: 5px;
+}
+
+.skill-progress {
+    height: 100%;
+    background-color: #f1c40f;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.skill-percent {
+    position: relative;
+    left: 87%;
+    bottom: 30px;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+}
+
+.flex-left{
+    width: 40vw;
+}
+.first-div{
+    width: 40vw;
+}
+
+.middle-3 {
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-rows: auto; 
+    color: #FAFAFA;
+    padding: 5vh 5%;
+    gap: 20px; 
+}
+
+.box {
+    width: 100%; 
+    max-width: 400px; 
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-top: 6px solid blue;
+    border-radius: 10px;
+    margin: 0 auto; 
+    gap: 20px;
+}
+
+.img-size {
+    margin-top: 10px; 
+}
+
+.images-si {
+    margin-bottom: 20px; 
+    margin-left: 20px; 
+}
+
+.shift {
+    font-size: 3vw; 
+    line-height: 1.2; 
+}
+
+.box > p {
+    font-size: 2vw; 
+    line-height: 1.2; 
+    margin: 0;
+}
+
+.contact {
+    width: 100%; 
+    background-color: black;
+    color: white;
+    font-size: 5vw; 
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 1.2px;
+    padding-top: 25px;
+    overflow: hidden;
+}
+
+.box-size {
+    width: 100%; 
+    max-width: 400px; 
+    height: auto;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .middle-3 {
+        width: 100%; 
+        grid-template-columns: 1fr;
+    }
+
+    .box {
+        max-width: 100%; 
+    }
+
+    .contact {
+        font-size: 7vw;
+    }
+}
+
+.box3{
+    background-image: url(./images/tamalsen-home-cover.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 99.2%;
+    position: relative;
+    bottom: 120px;
+    background-image: url(https://cdn.pixabay.com/photo/2017/10/10/07/48/hills-2836301_960_720.jpg);
+}
+
+.box3>h1{
+    color:black;
+    text-align: center;
+    font-size: 6vw;
+    
+}
+
+.box3-img1{
+    border: double 10px blue;
+    border-radius: 20px;
+    height: 80%;
+    width: 60%;
+    margin: 2vw;
+
+    
+}
+.box3-text1{
+    color: white;
+   font-size: 2vw;
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin: 2vw;
+
+}
+
+.box3-text1>h3{
+    text-decoration: underline 5px blue;
+}
+.project1{
+    display: flex;
+     background-color: #000000;
+   
+}
+.box3-img2{
+    border: double 10px blue;
+    border-radius: 20px;
+    height: 80%;
+    width: 60%;
+    margin: 2vw;
+}
+
+.box3-text2{
+    color: white;
+   font-size: 2vw;
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin: 2vw;
+}
+.box3-text2>h3{
+    text-decoration: underline 5px blue;
+}
+
+
+
+.project3{
+    display: flex;
+    background-image: url(./images/web_bg_new-optimized.jpeg);
+}
+.box3-img3{
+    
+    border: double 10px blue;
+    border-radius: 20px;
+    height: 50%;
+    width:90%;
+    margin: 2vw;
+}
+.box3-text3{
+    color: rgb(174, 30, 30);
+    font-size: 2vw;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+
+}
+
+.box3-text3>h3{
+    text-decoration: underline 5px blue;
+}
+
+
+footer{
+    height:70vh;
+}
+
+.last{
+    width: 100%; 
+    max-width: 2000px; 
+    background-color:black;
+    color: white;
+    padding-top:80px ;
+}
+.container {
+    max-width: 400px;
+    margin:0  auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  footer{
+    height: 60vh;
+  }
+  
+  .icon-box {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #333;
+    top: 60px;
+}
+.icon-img {
+    flex: 0 1 calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+    margin: 10px;
+    height: auto; 
+    background-color: rgb(9, 9, 9);
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .icon-img {
+        flex: 0 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+        margin-top: 20vh;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .icon-img {
+        flex: 0 1 calc(100% - 20px);
+        max-width: calc(100% - 20px);
+    }
+}
